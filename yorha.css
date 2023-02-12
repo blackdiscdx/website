@@ -570,7 +570,6 @@ header {
 }
 
 #shadowless {
-  position: relative;
   box-shadow: none !important;
 }
 
@@ -589,6 +588,12 @@ header {
 
 .projects {
   text-align: center;
+}
+
+.bio {
+  float: left;
+  word-wrap: break-word;
+  width: 50rem;
 }
 
 #musicvol {
